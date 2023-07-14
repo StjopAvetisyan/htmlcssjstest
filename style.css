@@ -1,0 +1,97 @@
+
+body {
+    font-family: Oswald;
+    margin: 0;
+    padding: 0;
+    background-color:#fefbe9;
+    color:#183a1d
+}
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #e1eedd;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+h1 {
+    text-align: center;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    /* border: 2px solid #f0a04b ;
+     */
+    border-radius: 10px;
+    background:#8EAC50
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product h3 {
+    margin: 0;
+}
+.product p {
+    margin: 5px 0;
+}
+.color-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.color-selector label {
+    margin-right: 10px;
+}
+.color-selector .color-option {
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.color-selector .color-option:hover {
+}
+.size-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.size-selector label {
+    margin-right: 10px;
+}
+.count-selector {
+    margin-bottom: 10px;
+}
+.count-selector label {
+    display: block;
+    margin-bottom: 5px;
+}
+.count-selector input[type="range"] {
+    width: 100%;
+}
+.count-selector label {
+    margin-bottom: 5px;
+}
+.count-selector input[type="range"] {
+    margin-left:5%;
+    width: 100%;
+}
+.btn{
+    font-family: Oswald;
+    font-size:15px;
+    padding:5px 10px;
+    border-radius:10px;
+    transition: transform .2s;
+    background-color:#f0a04b
+}
+.btn:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    background-color:#e1eedd
+}

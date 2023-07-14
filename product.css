@@ -1,0 +1,100 @@
+/* CSS styles for the product card */
+body{
+    display:flex;
+    background-color:#fefbe9;
+    color:#183a1d;
+    font-family: Oswald, serif;
+}
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding:30px;
+    background-color: #e1eedd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product {
+    background-color: #f1f1f1;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.product .details {
+    flex: 1;
+}
+.product .details h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.product .details p {
+    margin: 0;
+}
+.controls {
+    margin-top: 20px;
+}
+.color-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.color-selector label {
+    margin-right: 10px;
+}
+.color-selector .color-option {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.size-selector {
+    margin-bottom: 10px;
+}
+.size-selector label {
+    display: block;
+    margin-bottom: 5px;
+}
+.size-options {
+    display: flex;
+    align-items: center;
+}
+.size-option {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.count-selector {
+    margin-bottom: 10px;
+}
+.count-selector label {
+    display: block;
+    margin-bottom: 5px;
+}
+.count-selector input[type="range"] {
+    width: 100%;
+}
+.add-to-cart-btn {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add-to-cart-btn:hover {
+    background-color: #555;
+}
